@@ -1,0 +1,75 @@
+.grid{
+	display:grid;
+	background-color: blue;
+	height: 50vh;
+	width:  50vw;
+	grid-gap: 50px;
+	grid-template-columns: repeat (12, 1fr);
+	grid-template-rows: 150px auto 150px;
+	grid-template-areas:
+	"a a a a b b b b."
+	"a a a a b b b b."
+	"a a a a b b b b."
+    "c c c c d d d d."
+	"c c c c d d d d."
+	"c c c c d d d d."
+	
+}
+.b{
+	grid-area: b;
+	
+}
+
+.c{
+	grid-area: c;
+	
+}
+
+.a{
+	grid-area: a;
+
+}
+
+.d{
+	grid-area: d;
+}
+
+.item{
+	background-color: white;
+	color: white;
+	border-radius: 5px;
+	border: 5px solid blue;
+}
+
+.b{
+	grid-area: b;
+	
+}
+
+h1.title{
+	font-size: 10px;
+	font-family: 'Bowlby One SC', cursive;
+	color: black;
+	text-align: center;
+}
+
+
+
+.grid2{
+	display:grid2;
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+  "a a a a a a a a a"
+}
+
+h2.title{
+	font-size: 10px;
+	font-family: Lucida Console;
+	color:black;
+	text-align: center;
+}
